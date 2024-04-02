@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_trinagle.png" alt="triangle image" />
+        <img src="./images/trapezoid.svg" alt="shape image" />
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
