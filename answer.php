@@ -37,7 +37,7 @@
           $side3 = $_GET["side-3"];
 
           $area = sqrt(($side1 + $side2) / 2) * $side3;
-          $roundArea = round(int|float $area, int $precision = 2, int $mode = PHP_ROUND_HALF_UP);
+          $roundArea = round($area, $precision = 2);
 
           echo "Area is: " . $roundArea . " mm²";
           ?>
