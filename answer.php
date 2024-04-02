@@ -32,12 +32,14 @@
       <div class="page-content-php">
         <div id="triangle-area">
           <?php
-          $triangleBase = $_GET["base-of-triangle"];
-          $triangleHight = $_GET["hight-of-triangle"];
+          $side1 = $_GET["side-1"];
+          $side2 = $_GET["side-2"];
+          $side3 = $_GET["side-3"];
 
-          $triangleArea = ($triangleHight * $triangleBase) / 2;
+          $area = sqrt(($side1 + $side2) / 2) * $side3;
+          $roundArea = round(int|float $area, int $precision = 2, int $mode = PHP_ROUND_HALF_UP);
 
-          echo "The area of the triangle is: " . $triangleArea . " Cm²";
+          echo "Area is: " . $roundArea . " mm²";
           ?>
         </div>
       </div>

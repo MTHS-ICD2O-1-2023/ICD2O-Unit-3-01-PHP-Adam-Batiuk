@@ -29,6 +29,9 @@
       <div class="right-image">
         <img src="./images/trapezoid.svg" alt="shape image" />
       </div>
+      <div class="eqation">
+        <h2>A = ((a + b) / 2) × h</h2>
+      </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
           <p class="input-description">Side 1 (b)</p>
